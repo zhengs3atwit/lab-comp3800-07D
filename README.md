@@ -11,6 +11,7 @@ Linked Pages - usage of <a> tag with "href" to link homepages to specific animal
 
 Project structure:
 Main
+```
 |--index.html
 |--animals.html
 |--animals/
@@ -20,7 +21,7 @@ Main
 |  |--elephant.html
 |--css/
 |  |--main.css
-
+```
 homepage/index.html
 ![image](https://github.com/user-attachments/assets/602f3902-bb81-4a11-b1aa-8dc1eb80d166)
 
