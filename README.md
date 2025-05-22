@@ -10,6 +10,11 @@ Navbar - to navigate to list of animals, homepage
 Searchbar - to mimic sites that have search functions
 Linked Pages - usage of <a> tag with "href" to link homepages to specific animal pages. 
 ```
+
+```
+HTML files include standard tags such as head, link, and title; providing information for the page, such as name of page, or location of CSS.
+In body tags use include 
+```
 Project structure:
 Main
 ```
