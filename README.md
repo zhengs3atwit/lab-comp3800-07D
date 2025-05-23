@@ -7,13 +7,14 @@ Project includes a
 ```
 Landing page - highlighting what the site is
 Navbar - to navigate to list of animals, homepage
-Searchbar - to mimic sites that have search functions
+Searchbar - to mimic apperance of sites that have search functions
 Linked Pages - usage of <a> tag with "href" to link homepages to specific animal pages. 
 ```
 
 ```
-HTML files include standard tags such as head, link, and title; providing information for the page, such as name of page, or location of CSS.
-In body tags use include 
+HTML files used tags such as <head>, <title>, and <link> for the page's metadata. Used tags like <h1> and <strong> to emphasize text and give the page content a change in apperance. 
+To mimic site redirects, <a> tags with hrefs were used to redirect to other HTML pages. 
+Displaying content that wasn't just text, <img> tag were used with href to image links.
 ```
 Project structure:
 Main
