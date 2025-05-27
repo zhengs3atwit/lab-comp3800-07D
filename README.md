@@ -16,8 +16,8 @@ HTML files used tags such as <head>, <title>, and <link> for the page's metadata
 Tags like <h1> and <strong> to emphasize text and give the page content a change in apperance. 
 To mimic site redirects, <a> tags with hrefs were used to redirect to other HTML pages. 
 Displaying content that wasn't just text, <img> tag were used with href to image links.
-Changed apperance/styling of the page through use of CSS
-included, display flex on navbar to alter layout.
+Changed apperance/styling of the page through use of CSS,
+CSS such as display flex on navbar to alter layout.
 color, font-size text-decoration, and others to change the apperance of text and links.
 ```
 Project structure:
