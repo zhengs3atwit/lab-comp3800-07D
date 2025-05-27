@@ -1,5 +1,5 @@
 # lab1-comp3800-07D
-Animal Showcase
+Animal Showcase - Displays images of different animals.
 
 This project uses HTML/CSS to display images of animals, including 6 HTML, 1 CSS file, and a navbar. 
 
