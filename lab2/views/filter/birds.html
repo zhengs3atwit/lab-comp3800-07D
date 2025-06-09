@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Check the Animals</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/animals">List of Animals</a></li>
+                <li><a href="/facts">Random Facts</a></li>
+                <form action="/animal" method="GET">
+                    <label for="name">Search:</label>
+                    <input type="text" name="name" id="name">
+                    <button type="submit">Submit</button>
+                </form>
+            </ul>
+
+        </div>
+    </nav>
+
+    <section>
+        <form action="/filter" method="GET">
+
+            <legend>Filter by type:</legend>
+
+            <label>
+                <input type="checkbox" name="type" value="mammal">
+                Mammal
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="type" value="bird">
+                Bird
+            </label><br>
+
+            <button type="submit">Apply Filter</button>
+        </form>
+
+        <ul class="animallist">
+
+            <li> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOxGNdGCiCM3nqwdoXZEwZ8xPDUnsrXczDWA&s"
+                    alt="bluejay" width="100px"> <a href="/animals/bluejay">Bluejay</a></li>
+
+        </ul>
+
+    </section>
+</body>
+
+</html>
