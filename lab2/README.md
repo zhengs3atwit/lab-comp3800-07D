@@ -1,14 +1,17 @@
 # Lab 2
 
-This project consists of an express application that contains 5 routes (Query String/Path) to serve HTML pages; HTML taken from lab 1. 
+This project consists of an express application that contains 5 routes (Query String/Path Parameters) and static routes to serve HTML pages; HTML taken from lab 1. 
 
 ## Description
 Routes that do not require query strings, res.sendFile is used to serve corresponding HTML file.
 
-While routes that accept query strings extract reqest paramters (req.query/req.params) to determine what is served.
+While routes that accept query strings, extract reqest paramters (req.query/req.params) to determine what is served.
 
-Query String and the filter on /animals, uses different HTML files, to mimic filtering used in many websites; given no Javascript was used for this project. 
+Path Parameter routes take passed in values.
+Example: app.get('/animals/:name', (req, res). 
 
+Query String and Path Parameters has been used to mimick what is typical of websites. 
+Such as filtering, clicking specific products. 
 ## Design
 ```
 Lab 2
@@ -16,7 +19,9 @@ Lab 2
 |    |--main.css
 |--views/         #HTML files
 |    |--animals/
+|    |--facts
 |    |--filter
+|    |--shop
 |--package.json   #Metadata/dependencies
 |--Server.js      #Entry to Express app
 ```
@@ -32,7 +37,7 @@ Node.js
 ```
 node server.js
 ```
-Enter localhost:8000 or 127.0.0.1:8000 into URL of browser. 
+Enter ```localhost:8000``` or ```127.0.0.1:8000``` into URL of browser. 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/3e98d077-a101-4e05-aa26-4745561791db)
 
@@ -40,14 +45,15 @@ Enter localhost:8000 or 127.0.0.1:8000 into URL of browser.
 Example 1. Root route/index.html
 ```
 
-![image](https://github.com/user-attachments/assets/e2f9622e-89b9-4719-b514-5fb7e6c16720)
-```
-Example 2. /animal route
-```
-
-![image](https://github.com/user-attachments/assets/03039334-5e97-4eb7-8492-680123dcc11a)
+![image](https://github.com/user-attachments/assets/7bd281a3-a20e-4336-bdea-359d3b327fc2)
 
 ```
-Example 3.Query String
+Example 2. /animal route. with Query String 
+```
+
+![image](https://github.com/user-attachments/assets/c20c0b0f-6856-4129-90c9-bd458a69d93e)
+
+```
+Example 3. /shop route. with Path Parameters
 ```
 
