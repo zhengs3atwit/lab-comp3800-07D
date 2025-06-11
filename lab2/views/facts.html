@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Animal Facts</title>
   <link rel="stylesheet" href="/main.css">
 </head>
+
 <body>
 
   <nav>
@@ -13,28 +15,30 @@
         <li><a href="/">Home</a></li>
         <li><a href="/animals">List of Animals</a></li>
         <li><a href="/facts">Random Facts</a></li>
-        <form action="/animal" method="GET">
-          <label for="name">Search:</label>
-          <input type="text" name="name" id="name">
+        <li><a href="/shop">Shop</a></li>
+        <form action="/search" method="GET">
+          <label for="q">Search:</label>
+          <input type="text" name="q" id="q" placeholder="Search for page">
           <button type="submit">Submit</button>
         </form>
       </ul>
     </div>
   </nav>
 
-  <h2>Random Animal Facts</h2>
+  <h2>Random Animal Habitat Facts</h2>
   <ul>
-    <li>A group of flamingos is called a "flamboyance".</li>
-    <li>Octopuses have three hearts and blue blood.</li>
-    <li>A snail can sleep for three years at a time.</li>
-    <li>Elephants are the only animals that can't jump.</li>
-    <li>Dolphins have names for each other.</li>
-    <li>A cow gives nearly 200,000 glasses of milk in her lifetime.</li>
-    <li>Kangaroos can't walk backwards.</li>
-    <li>Sea otters hold hands when they sleep to keep from drifting apart.</li>
-    <li>A cheetah can go from 0 to 60 mph in just 3 seconds.</li>
-    <li>Sloths can take up to a month to digest a single meal.</li>
+    <li><img src="https://i.natgeofe.com/k/53ffcf37-d723-47e7-b7e1-519c605dc977/coral-reef-fish_4x3.jpg" alt="oceanfact"
+        width=100px><a href="/facts/ocean">Ocean</a></li>
+
+    <li><img src="https://i.natgeofe.com/k/ae89549c-6b2d-4972-a6ec-752a72f7cf33/grassland-lion-pride_16x9.jpg?w=1200"
+        alt="grasslandfact" width=100px><a href="/facts/grassland">Grassland</a></li>
+    <li><img
+        src="https://i.natgeofe.com/k/8162b6db-107f-42f9-a412-e8f9f5699e50/rain-forest-gorilla.jpg?wp=1&w=1084.125&h=611.625"
+        alt="rainforest" width=100px><a href="/facts/rainforest">Rainforest</a></li>
+
   </ul>
 
+
 </body>
+
 </html>

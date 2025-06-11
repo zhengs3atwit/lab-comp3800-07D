@@ -14,16 +14,15 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="/animals">List of Animals</a></li>
                 <li><a href="/facts">Random Facts</a></li>
-                <form action="/animal" method="GET">
-                    <label for="name">Search:</label>
-                    <input type="text" name="name" id="name">
+                <li><a href="/shop">Shop</a></li>
+                <form action="/search" method="GET">
+                    <label for="q">Search:</label>
+                    <input type="text" name="q" id="q" placeholder="Search for page">
                     <button type="submit">Submit</button>
                 </form>
             </ul>
-
         </div>
     </nav>
-
     <section>
         <form action="/filter" method="GET">
 
@@ -46,7 +45,8 @@
 
             <li> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOxGNdGCiCM3nqwdoXZEwZ8xPDUnsrXczDWA&s"
                     alt="bluejay" width="100px"> <a href="/animals/bluejay">Bluejay</a></li>
-
+            <li> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvdqk1LalENfjAyhvJPcL4sypRDDJzRRoEKQ&s"
+                    alt="eagle" width="100px"> <a href="/animals/eagle">Eagle</a></li>
         </ul>
 
     </section>

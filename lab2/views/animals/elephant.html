@@ -2,33 +2,35 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Check the Animals</title>
-    <link rel="stylesheet" href="/main.css">
+  <meta charset="UTF-8">
+  <title>Check the Animals</title>
+  <link rel="stylesheet" href="/main.css">
 </head>
 
 <body>
-    <nav>
+  <nav>
     <div class="navbar">
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/animals">List of Animals</a></li>
         <li><a href="/facts">Random Facts</a></li>
-        <form action="/animal" method="GET">
-          <label for="name">Search:</label>
-          <input type="text" name="name" id="name">
+        <li><a href="/shop">Shop</a></li>
+        <form action="/search" method="GET">
+          <label for="q">Search:</label>
+          <input type="text" name="q" id="q" placeholder="Search for page">
           <button type="submit">Submit</button>
         </form>
       </ul>
     </div>
   </nav>
 
-    <section>
-        <h1>Elephant</h1>
-        <img src="https://images.pexels.com/photos/1054655/pexels-photo-1054655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="elephant">
+  <section>
+    <h1>Elephant</h1>
+    <img
+      src="https://images.pexels.com/photos/1054655/pexels-photo-1054655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      alt="elephant">
 
-    </section>
+  </section>
 </body>
 
 </html>

@@ -14,13 +14,13 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="/animals">List of Animals</a></li>
                 <li><a href="/facts">Random Facts</a></li>
-                <form action="/animal" method="GET">
-                    <label for="name">Search:</label>
-                    <input type="text" name="name" id="name">
+                <li><a href="/shop">Shop</a></li>
+                <form action="/search" method="GET">
+                    <label for="q">Search:</label>
+                    <input type="text" name="q" id="q" placeholder="Search for page">
                     <button type="submit">Submit</button>
                 </form>
             </ul>
-
         </div>
     </nav>
 
@@ -41,6 +41,11 @@
 
             <button type="submit">Apply Filter</button>
         </form>
+        <form action="/animals" method="GET">
+            <label for="name">Search:</label>
+            <input type="text" name="name" id="name" placeholder="Search specific animal">
+            <button type="submit">Submit</button>
+        </form>
 
         <ul class="animallist">
             <li> <img
@@ -53,6 +58,8 @@
             <li> <img
                     src="https://transforms.stlzoo.org/production/animals/asian-elephant-02-01.jpg?w=1200&h=1200&auto=compress%2Cformat&fit=crop&dm=1654794861&s=547c011630e25f5dc2b677178ae20683"
                     alt="elephant" width="100px"> <a href="/animals/elephant">Elephant</a></li>
+            <li> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvdqk1LalENfjAyhvJPcL4sypRDDJzRRoEKQ&s"
+                    alt="eagle" width="100px"> <a href="/animals/eagle">Eagle</a></li>
         </ul>
 
     </section>

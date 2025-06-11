@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wildlife Explorer Shop</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/animals">List of Animals</a></li>
+                <li><a href="/facts">Random Facts</a></li>
+                <li><a href="/shop">Shop</a></li>
+                <form action="/search" method="GET">
+                    <label for="q">Search:</label>
+                    <input type="text" name="q" id="q" placeholder="Search for page">
+                    <button type="submit">Submit</button>
+                </form>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Animal Explorer Shop</h1>
+        <p>What you need to help explore the outdoors and interact with animals</p>
+    </header>
+    <section>
+        <form action="/filter" method="GET">
+            <label for="category">Filter by category:</label>
+            <select name="type" id="category">
+                <option value="defaultshop">Show All</option>
+                <option value="navigation">Navigation</option>
+                <option value="protection">Protection</option>
+                <option value="lighting">Lighting</option>
+            </select>
+            <button type="submit">Filter</button>
+        </form>
+    </section>
+
+    <img src="https://mobileimages.lowes.com/productimages/1cc0f97a-a9e1-4e0f-bf3b-7f1f4323d48a/64427259.jpg?size=pdhism"
+        alt="bugspray" width="100px"> <a href="/shop/bugspray">Bug Spray</a>
+    <img src="https://www.scandinaviannorth.com/cdn/shop/files/Women_sRaincoatYellowFront.webp?v=1707503778"
+        alt="raincoat" width="100px"> <a href="/shop/raincoat">Rain Jacket</a>
+
+
+
+</body>
+
+</html>
